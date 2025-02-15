@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(68, 68, 68);
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: scale(170%);
+  background-image: url(img/071df5515f379e134f0ca99240908646.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container {
+  min-height: 25%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.819);
+  padding: 10px 0px 0px 0px;
+  width: 500px;
+
+  box-shadow: 0px 00px 15px 10px;
+  border: 2px solid white;
+  border-radius: 40px;
+
+}
+
+
+
+
+.title {
+  color: white;
+  mix-blend-mode: ;
+  text-align: center;
+
+}
+
+
+
+.forms {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  padding: 20px;
+}
+
+.forms_s {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.s-paragraf {
+  display: flex;
+  justify-content: space-between;
+
+
+  margin: 20px 0px;
+}
+
+.forms-input {
+  max-width: 150px;
+  height: 30px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.forms_price {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.price-paragraf {}
+
+.forms_consume {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.consume-paragraf {}
+
+.forms_ovrprice {}
+
+.ovrprice-paragraf {}
+
+.count {
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 0px 38px 38px;
+  padding: 0;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="title">
+                Поездка на дачу!
+            </h1>
+            <div class="forms">
+                <div class="forms_s">
+                    <p class="s-paragraf">
+                        Расстояние (км.);
+                    </p>
+                    <input type="text" class="forms-input" id="s">
+                </div>
+                <div class="forms_price">
+                    <p class="price-paragraf">
+                        Цена бензина (руб./литр);
+                    </p>
+                    <input type="text" class="forms-input" id="price">
+                </div>
+                <div class="forms_consume">
+                    <p class="consume-paragraf">
+                        Потребление (на 100км.);
+                    </p>
+                    <input type="text" class="forms-input" id="consume">
+                </div>
+                <div class="forms_ovrprice">
+                    <p class="ovrprice-paragraf">
+                        Стоимость
+                    </p>
+                    <p class="forms-input" id="overall"></p>
+                </div>
+            </div>
+            <button class="count">Get overall price!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
